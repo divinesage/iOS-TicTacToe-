@@ -22,17 +22,17 @@
 
 @synthesize board ;
 @synthesize uiButtons;
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    board = [[GameBoard alloc]init];
-    [board initialize];
-    
-    for (int i=0; i<[uiButtons count]; i++) {
-        [[uiButtons objectAtIndex:i] setTitle:@" " forState:UIControlStateNormal];
-    }
-}
+//
+//- (void)viewDidLoad {
+//    [super viewDidLoad];
+//    // Do any additional setup after loading the view, typically from a nib.
+//    board = [[GameBoard alloc]init];
+//    [board initialize];
+//    
+//    for (int i=0; i<[uiButtons count]; i++) {
+//        [[uiButtons objectAtIndex:i] setTitle:@" " forState:UIControlStateNormal];
+//    }
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
